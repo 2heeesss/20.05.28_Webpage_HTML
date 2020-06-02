@@ -3,16 +3,74 @@
   <head>
     <meta charset="utf-8">
     <title>Just Music</title>
+    <style>
+    /*희승*/
+
+    body {background-color: gray;}
+    #gnb li {
+      display: inline;
+      list-style-type: none;
+      padding: 1em;
+    }
+    #gnb {
+      display: block;
+      float: left;
+    }
+    .sns li {
+      display: inline;
+
+      padding: 3px;
+    }
+    .sns {
+      display: block;
+      float: right;
+      margin-top: 50px;
+    }
+    .youtube{
+      padding: 150px;
+    }
+    .album{
+      margin-top: 600px;
+    }
+
+
+
+
+    /*범석*/
+    .t_c { text-align:center !important;}
+#album_list{
+  margin-bottom: 60px;
+}
+#album_list li{
+  list-style: none;
+  float: left;
+  margin : 3px;
+  width : 23%;
+  height: 10%;
+}
+#album_list li a{
+  display: block;
+  position: relative;
+  border: 1px solid #656565;
+  position:relative;
+  padding-top:100%;
+  overflow:hidden;
+}
+#album_list li a > img{
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 100%;
+}
+footer {padding: 300px;}
+
+    </style>
   </head>
   <body>
     <header>
-      <div class="head_logo">
-        <a href="#">
-          <img src="" alt="">
-        </a>
-      </div>
       <div class="menu_box">
         <ul id="gnb">
+          <li class="gnb_logo"><img src="icon/icon_logo.png" alt="로고"></li>
           <li class="gnb00"><a href="/">Home</a></li>
           <li class="gnb01"><a href="">about</a></li>
           <li class="gnb02"><a href="">artist</a></li>
@@ -48,17 +106,60 @@
             </li>
         </ul>
       </div>
-    </header> <br>
+    </header>
     <section>
       <article class="youtube">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/LVfgOrBVFmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="youtube_block">
+          <p ><iframe src="https://www.youtube.com/embed/LVfgOrBVFmQ" style=position:absolute; width=80% height=80% frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        </div>
       </article>
+
       <article class="album">
-        <img src="" alt="album">
-        <img src="" alt="album">
-        <img src="" alt="album">
-        <img src="" alt="album">
-        <img src="" alt="album">
+        <div class="section t_c">
+          <h2>Album</h2>
+          <ul id="album_list">
+              <li>
+                  <a href="#" target="_blank" title="엘범1">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범1">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank" title="엘범2">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범2">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank" title="엘범3">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범3">
+                  </a>
+              </li>
+              <li class="album">
+                  <a href="" target="_blank" title="엘범4">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범4">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank" title="엘범5">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범5">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank" title="엘범6">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범6">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank" title="엘범7">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범7">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank" title="엘범8">
+                      <img src="http://imgnews.naver.net/image/417/2019/10/01/0000454871_001_20191001091027533.jpg" alt="엘범8">
+                  </a>
+              </li>
+          </ul>
+        </div>
       </article>
     </section>
     <footer>
