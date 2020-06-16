@@ -46,3 +46,5 @@ border-top으로 위에 선 만듦
 body 클래스 이름을 about body 로 정의 <br>
 백그라운드 이미지 삽입 <br>
 
+## artist.html
+- artist <br>
