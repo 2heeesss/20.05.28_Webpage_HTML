@@ -1,4 +1,4 @@
-html, body, main, ul, li, h1, iframe, article, div, section, footer, p{
+html, body, main, ul, li, h1, iframe, article, div, section, footer, p, table,table tr, td{
   margin : 0;
   padding : 0;
   border : 0;}
@@ -130,15 +130,6 @@ li, ul, ol{
 /*6.15 희승 업데이트*/
 
 
-
-
-
-
-
-
-
-
-
 .sns_box a {
   text-decoration: none;}
 
@@ -163,6 +154,10 @@ li, ul, ol{
   opacity: 0.5;}
 
 .menu_box #gnb a:hover {
+  opacity: 1;
+  font-weight: bolder;}
+
+.menu_box #gnb a.on{
   opacity: 1;
   font-weight: bolder;}
 
@@ -213,7 +208,6 @@ li, ul, ol{
 #container .about_comment {
   font-size: 20px;
   text-align: center;
-
 
 }
 #container .about_comment p {
@@ -286,4 +280,48 @@ li, ul, ol{
   color: #666;
   text-indent: -2px;
   letter-spacing: 0;
+}
+/* 범석 19일 */
+.contact h2 {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-bottom: 47px;
+    font-weight: 400;
+}
+.t_bold{
+  text-align: left;
+   font-size: 15px;
+   line-height: 15px;
+   color: #fff;
+   font-weight: 600;
+}
+ .t_bold1{
+   text-align: left;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 120px;
+}
+
+.contact table{
+  margin-bottom : 100px;
+}
+.contact td{
+  padding-top : 20px;
+}
+.t_thin{
+  font-size: 16px;
+  line-height: 16px;
+  color: #555;
+  font-weight: 600;
+}
+
+
+.contact iframe {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 450px;
 }
